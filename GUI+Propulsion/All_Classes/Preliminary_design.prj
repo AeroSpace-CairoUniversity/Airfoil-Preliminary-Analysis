@@ -1,0 +1,82 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2494698161" file="D:\NonCollegeEdu\Student_activites\Git_Aer_Org\GUI+Propulsion\All_Classes\Preliminary_design.prj" location="D:\NonCollegeEdu\Student_activites\Git_Aer_Org\GUI+Propulsion\All_Classes" name="Preliminary_design" target="target.mlapps" target-name="Package App">
+    <param.appname>Preliminary_design</param.appname>
+    <param.authnamewatermark>Ahmed Ibrahim Mohamed</param.authnamewatermark>
+    <param.email>ahmedibrahimmohamed75@gmail.com</param.email>
+    <param.company>So High In The Sky</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>D:\NonCollegeEdu\Design_materials\Icons\jet.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>D:\NonCollegeEdu\Student_activites\Git_Aer_Org\GUI+Propulsion\Propulsion_Design_GUI_V1</param.output>
+    <param.guid>cc7dfbbd-96e6-4d21-82c4-33e2b07c6c74</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Preliminary_design_V1.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>D:\calculation\Drag.m</file>
+      <file>D:\calculation\Thrust.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\NonCollegeEdu\Student_activites\Git_Aer_Org\GUI+Propulsion" name="Propulsion_Design_GUI_V1" optional="false">D:\NonCollegeEdu\Student_activites\Git_Aer_Org\GUI+Propulsion\Propulsion_Design_GUI_V1</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
