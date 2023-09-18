@@ -10,7 +10,7 @@ this repo will be a collection of airfoil analysis codes that automates, facilit
 
 For now, the repo has only has the preliminary aerodynamics analysis as a MATLAB function Ver1.5.
 
-# License of this Repository Work:
+# License of this Repository's Work:
 Copyright (C) 2023-2024 AeroSpace_CairoUniversity <ahmed.hassan023@eng-st.cu.edu.eg/ahmedhassan200282@gmail.com>
 
 This file is part of the DBF project under Cairo University UDC created by **Ahmed Hassan** (Main Contributor) and Used by his DBF Team ***So High In The Sky***.
